@@ -15,8 +15,28 @@ h1 {
 }
 
 section {
-  width: 200px;
-  height: 60px;
-  background-color: rgba(0, 0, 255, 0.44);
-  margin: 30px;
+  width: calc(100% / 3);
+  padding: 20px;
+}
+
+.section-memb {
+  background-color: bisque;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+.info-member {
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
