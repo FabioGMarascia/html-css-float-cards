@@ -2,33 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 3% 10%;
 }
 
 header {
   text-align: center;
-  margin: 4% 15%;
+}
+
+header > p {
+  padding: 30px;
 }
 
 h1 {
-  padding-bottom: 40px;
-  color: rgb(186, 19, 114);
+  color: rgb(191, 19, 116);
 }
 
 section {
   width: calc(100% / 3);
-  padding: 20px;
-}
-
-.section-memb {
-  background-color: bisque;
-}
-
-img {
-  width: 70px;
-  height: 70px;
-}
-
-.info-member {
+  padding: 15px;
+  color: white;
 }
 
 .float-left {
@@ -39,4 +34,24 @@ img {
   content: "";
   display: table;
   clear: both;
+}
+
+.section-memb {
+  background-color: #222222;
+}
+
+.img-memb {
+  width: 70px;
+  height: 70px;
+  margin-right: 12px;
+}
+
+.info-memb {
+  padding: 8px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a {
+  text-decoration: none;
 }
