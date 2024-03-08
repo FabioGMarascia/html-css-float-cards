@@ -35,6 +35,7 @@ h1 {
 
 .section-memb {
   background-color: #222222;
+  box-shadow: 0 0 10px black;
 }
 
 .img-memb {
