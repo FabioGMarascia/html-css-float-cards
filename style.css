@@ -12,13 +12,9 @@ header {
   text-align: center;
 }
 
-header > p {
-  padding: 30px;
-}
-
 h1 {
   color: rgb(191, 19, 116);
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 section {
